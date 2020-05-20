@@ -5,6 +5,7 @@ import { FormsComponent } from './feature/forms/forms.component';
 import { BadgeComponent } from './feature/badge/badge.component';
 import { NavbarComponent } from './feature/navbar/navbar.component';
 import { AlertComponent } from './feature/alert/alert.component';
+import { BreadscrumbComponent } from './feature/breadscrumb/breadscrumb.component';
 
 const routes: Routes = [
   { path: 'button', component: ButtonComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'badge', component: BadgeComponent },
   { path: 'navbar', component: NavbarComponent },
   { path: 'alert', component: AlertComponent },
+  { path: 'breadscurmb', component: BreadscrumbComponent },
 ];
 
 @NgModule({

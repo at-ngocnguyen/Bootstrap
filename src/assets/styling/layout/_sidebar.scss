@@ -23,6 +23,13 @@
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
   }
+
+  &.active {
+    z-index: 2;
+    color: #fff;
+    background-color: $primary;
+    border-color: $primary;
+  }
 }
 
 .list-group-item-action {
