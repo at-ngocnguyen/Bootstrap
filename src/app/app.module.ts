@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { ButtonComponent } from './feature/button/button.component';
 import { FormsComponent } from './feature/forms/forms.component';
 import { BadgeComponent } from './feature/badge/badge.component';
+import { NavbarComponent } from './feature/navbar/navbar.component';
+import { AlertComponent } from './feature/alert/alert.component';
+import { BreadscrumbComponent } from './feature/breadscrumb/breadscrumb.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
     FormsComponent,
-    BadgeComponent
+    BadgeComponent,
+    NavbarComponent,
+    AlertComponent,
+    BreadscrumbComponent,
   ],
   imports: [
     BrowserModule,

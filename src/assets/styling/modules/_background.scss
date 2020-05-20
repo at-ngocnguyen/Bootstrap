@@ -1,0 +1,34 @@
+@mixin bg-type ($type, $st, $nd) {
+  .bg-#{$type} {
+    background-color: $st !important;
+  }
+
+  a {
+    &.bg-#{$type} {
+
+      &:hover,
+      &:focus {
+        background-color: $nd !important;
+      }
+    }
+  }
+
+  button {
+    &.bg-#{$type} {
+
+      &:hover,
+      &:focus {
+        background-color: $nd !important;
+      }
+    }
+  }
+}
+
+@include bg-type(primary, $primary, $primary-nd);
+@include bg-type(secondary, $secondary, $secondary-nd);
+@include bg-type(success, $success, $success-nd);
+@include bg-type(info, $info, $info-nd);
+@include bg-type(warning, $warning, $warning-nd);
+@include bg-type(danger, $danger, $danger-nd);
+@include bg-type(light, $light, $light-nd);
+@include bg-type(dark, $dark, $dark-nd);

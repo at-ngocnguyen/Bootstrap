@@ -129,6 +129,7 @@ $sizes: 12;
 
   a {
     &.badge-#{$type} {
+
       &:focus,
       &:hover {
         color: $color;
@@ -140,6 +141,22 @@ $sizes: 12;
         outline: 0;
         box-shadow: $bs;
       }
+    }
+  }
+}
+
+@mixin alert-type ($type, $color, $bg, $bd, $bd-t, $link) {
+  .alert-#{$type} {
+    color: $color;
+    background-color: $bg;
+    border-color: $bd;
+
+    hr {
+      border-top-color: $bd-t;
+    }
+
+    .alert-link {
+      color: $link;
     }
   }
 }
