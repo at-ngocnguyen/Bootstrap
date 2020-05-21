@@ -61,7 +61,7 @@ $padding:30px;
         max-width: calc(#{$i} / #{$colum} * 100% - #{$padding});
       }
     }
-
+    .col,
     .col-#{$i},
     .col-auto,
     .col-sm-#{$i},

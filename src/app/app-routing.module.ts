@@ -7,6 +7,7 @@ import { NavbarComponent } from './feature/navbar/navbar.component';
 import { AlertComponent } from './feature/alert/alert.component';
 import { BreadscrumbComponent } from './feature/breadscrumb/breadscrumb.component';
 import { CardComponent } from './feature/card/card.component';
+import { CollapseComponent } from './feature/collapse/collapse.component';
 
 const routes: Routes = [
   {
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'navbar', component: NavbarComponent },
   { path: 'alert', component: AlertComponent },
   { path: 'breadscurmb', component: BreadscrumbComponent },
-  { path: 'card', component: CardComponent }
+  { path: 'card', component: CardComponent },
+  { path: 'collapse', component: CollapseComponent },
 ];
 
 @NgModule({
