@@ -8,6 +8,7 @@ import { AlertComponent } from './feature/alert/alert.component';
 import { BreadscrumbComponent } from './feature/breadscrumb/breadscrumb.component';
 import { CardComponent } from './feature/card/card.component';
 import { CollapseComponent } from './feature/collapse/collapse.component';
+import { ModalComponent } from './feature/modal/modal.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'breadscurmb', component: BreadscrumbComponent },
   { path: 'card', component: CardComponent },
   { path: 'collapse', component: CollapseComponent },
+  { path: 'modal', component: ModalComponent },
 ];
 
 @NgModule({

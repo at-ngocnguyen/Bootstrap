@@ -11,6 +11,7 @@ import { AlertComponent } from './feature/alert/alert.component';
 import { BreadscrumbComponent } from './feature/breadscrumb/breadscrumb.component';
 import { CardComponent } from './feature/card/card.component';
 import { CollapseComponent } from './feature/collapse/collapse.component';
+import { ModalComponent } from './feature/modal/modal.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { CollapseComponent } from './feature/collapse/collapse.component';
     BreadscrumbComponent,
     CardComponent,
     CollapseComponent,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,
