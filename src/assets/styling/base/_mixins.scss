@@ -81,7 +81,7 @@ $sizes: 12;
 
 @mixin padding-classes {
   @for $i from 1 through $sizes {
-    $padding: $i * 0.25rem;
+    $padding: $i * 0.25rem !important;
 
     .p-auto {
       padding: auto;

@@ -9,7 +9,8 @@ import { BadgeComponent } from './feature/badge/badge.component';
 import { NavbarComponent } from './feature/navbar/navbar.component';
 import { AlertComponent } from './feature/alert/alert.component';
 import { BreadscrumbComponent } from './feature/breadscrumb/breadscrumb.component';
-
+import { CardComponent } from './feature/card/card.component';
+import { CollapseComponent } from './feature/collapse/collapse.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,8 @@ import { BreadscrumbComponent } from './feature/breadscrumb/breadscrumb.componen
     NavbarComponent,
     AlertComponent,
     BreadscrumbComponent,
+    CardComponent,
+    CollapseComponent,
   ],
   imports: [
     BrowserModule,
