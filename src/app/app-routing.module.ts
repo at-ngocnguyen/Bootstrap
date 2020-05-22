@@ -13,6 +13,7 @@ import { DropdownComponent } from './feature/dropdown/dropdown.component';
 import { InputGroupComponent } from './feature/input-group/input-group.component';
 import { JumbotronComponent } from './feature/jumbotron/jumbotron.component';
 import { PaginationComponent } from './feature/pagination/pagination.component';
+import { ProgressComponent } from './feature/progress/progress.component';
 
 const routes: Routes = [
   {
@@ -33,6 +34,7 @@ const routes: Routes = [
   { path: 'input-group', component: InputGroupComponent},
   { path: 'jumbotron', component: JumbotronComponent},
   { path: 'pagination', component: PaginationComponent},
+  { path: 'progress', component: ProgressComponent},
 ];
 
 @NgModule({

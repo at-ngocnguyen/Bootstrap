@@ -16,6 +16,7 @@ import { DropdownComponent } from './feature/dropdown/dropdown.component';
 import { InputGroupComponent } from './feature/input-group/input-group.component';
 import { JumbotronComponent } from './feature/jumbotron/jumbotron.component';
 import { PaginationComponent } from './feature/pagination/pagination.component';
+import { ProgressComponent } from './feature/progress/progress.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +33,7 @@ import { PaginationComponent } from './feature/pagination/pagination.component';
     InputGroupComponent,
     JumbotronComponent,
     PaginationComponent,
+    ProgressComponent,
   ],
   imports: [
     BrowserModule,
