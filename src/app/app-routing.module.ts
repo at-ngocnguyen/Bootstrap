@@ -9,6 +9,7 @@ import { BreadscrumbComponent } from './feature/breadscrumb/breadscrumb.componen
 import { CardComponent } from './feature/card/card.component';
 import { CollapseComponent } from './feature/collapse/collapse.component';
 import { ModalComponent } from './feature/modal/modal.component';
+import { DropdownComponent } from './feature/dropdown/dropdown.component';
 
 const routes: Routes = [
   {
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'card', component: CardComponent },
   { path: 'collapse', component: CollapseComponent },
   { path: 'modal', component: ModalComponent },
+  { path: 'dropdown', component: DropdownComponent },
 ];
 
 @NgModule({

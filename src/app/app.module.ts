@@ -12,6 +12,7 @@ import { BreadscrumbComponent } from './feature/breadscrumb/breadscrumb.componen
 import { CardComponent } from './feature/card/card.component';
 import { CollapseComponent } from './feature/collapse/collapse.component';
 import { ModalComponent } from './feature/modal/modal.component';
+import { DropdownComponent } from './feature/dropdown/dropdown.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { ModalComponent } from './feature/modal/modal.component';
     CardComponent,
     CollapseComponent,
     ModalComponent,
+    DropdownComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-  <div class="container">
+  <main class="container">
     <div class="row  mt-5">
       <div class="col-lg-3 col-sm-12">
         <div class="list-group" id="list-tab" role="tablist">
@@ -20,10 +20,12 @@
             routerLink="/collapse" role="tab" aria-controls="profile">Collapse</a>
           <a class="list-group-item list-group-item-action" id="list-modal-list" data-toggle="list"
             routerLink="/modal" role="tab" aria-controls="profile">Modal</a>
+          <a class="list-group-item list-group-item-action" id="list-dropdown-list" data-toggle="list"
+            routerLink="/dropdown" role="tab" aria-controls="profile">Dropdown</a>
         </div>
       </div>
       <div class="col-lg-9 col-sm-12 col-xs-12">
         <router-outlet></router-outlet>
       </div>
     </div>
-  </div>
+  </main>
