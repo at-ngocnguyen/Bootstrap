@@ -35,11 +35,8 @@ import { ProgressComponent } from './feature/progress/progress.component';
     PaginationComponent,
     ProgressComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
