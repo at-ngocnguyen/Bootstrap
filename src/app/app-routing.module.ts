@@ -12,6 +12,7 @@ import { ModalComponent } from './feature/modal/modal.component';
 import { DropdownComponent } from './feature/dropdown/dropdown.component';
 import { InputGroupComponent } from './feature/input-group/input-group.component';
 import { JumbotronComponent } from './feature/jumbotron/jumbotron.component';
+import { PaginationComponent } from './feature/pagination/pagination.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,7 @@ const routes: Routes = [
   { path: 'dropdown', component: DropdownComponent },
   { path: 'input-group', component: InputGroupComponent},
   { path: 'jumbotron', component: JumbotronComponent},
+  { path: 'pagination', component: PaginationComponent},
 ];
 
 @NgModule({
