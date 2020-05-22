@@ -13,6 +13,7 @@ import { CardComponent } from './feature/card/card.component';
 import { CollapseComponent } from './feature/collapse/collapse.component';
 import { ModalComponent } from './feature/modal/modal.component';
 import { DropdownComponent } from './feature/dropdown/dropdown.component';
+import { InputGroupComponent } from './feature/input-group/input-group.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +27,7 @@ import { DropdownComponent } from './feature/dropdown/dropdown.component';
     CollapseComponent,
     ModalComponent,
     DropdownComponent,
+    InputGroupComponent,
   ],
   imports: [
     BrowserModule,
