@@ -14,6 +14,7 @@ import { CollapseComponent } from './feature/collapse/collapse.component';
 import { ModalComponent } from './feature/modal/modal.component';
 import { DropdownComponent } from './feature/dropdown/dropdown.component';
 import { InputGroupComponent } from './feature/input-group/input-group.component';
+import { JumbotronComponent } from './feature/jumbotron/jumbotron.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { InputGroupComponent } from './feature/input-group/input-group.component
     ModalComponent,
     DropdownComponent,
     InputGroupComponent,
+    JumbotronComponent,
   ],
   imports: [
     BrowserModule,

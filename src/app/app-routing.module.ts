@@ -11,6 +11,7 @@ import { CollapseComponent } from './feature/collapse/collapse.component';
 import { ModalComponent } from './feature/modal/modal.component';
 import { DropdownComponent } from './feature/dropdown/dropdown.component';
 import { InputGroupComponent } from './feature/input-group/input-group.component';
+import { JumbotronComponent } from './feature/jumbotron/jumbotron.component';
 
 const routes: Routes = [
   {
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'modal', component: ModalComponent },
   { path: 'dropdown', component: DropdownComponent },
   { path: 'input-group', component: InputGroupComponent},
+  { path: 'jumbotron', component: JumbotronComponent},
 ];
 
 @NgModule({
