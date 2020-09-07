@@ -1,0 +1,36 @@
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-heading {
+  color: inherit;
+}
+
+.alert-link {
+  font-weight: 700;
+}
+
+.alert-dismissible {
+  padding-right: 4rem;
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.75rem 1.25rem;
+    color: inherit;
+  }
+}
+
+@include alert-type (primary, #004085, #cce5ff, #b8daff, #9fcdff, #002752);
+@include alert-type (secondary, #383D41, #E2E3E5, #D6D8DB, #C8CBCF, #202326);
+@include alert-type (success, #155724, #D4EDDA, #C3E6CB, #B1DFBB, #0B2E13);
+@include alert-type (info, #0C5460, #D1ECF1, #BEE5EB, #ABDDE5, #062C33);
+@include alert-type (warning, #856404, #FFF3CD, #FFEEBA, #FFE8A1, #533F03);
+@include alert-type (danger, #721C24, #F8D7DA, #F5C6CB, #F1B0B7, #491217);
+@include alert-type (light, #818182, #FEFEFE, #FDFDFE, #ECECF6, #686868);
+@include alert-type (dark, #1B1E21, #D6D8D9, #C6C8CA, #B9BBBE, #040505);
