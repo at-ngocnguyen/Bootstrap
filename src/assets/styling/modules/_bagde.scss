@@ -1,0 +1,36 @@
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &:empty {
+    display: none;
+  }
+}
+
+.btn,
+button .badge {
+  position: relative;
+  top: -1px;
+}
+
+a.badge:hover,
+a.badge:focus {
+  text-decoration: none;
+}
+
+@include bagde-type(primary, #ffffff, #007bff, #0062cc, 0 0 0 0.2rem rgba(0, 123, 255, 0.5));
+@include bagde-type(secondary, #ffffff, #6c757d, #545b62, 0 0 0 0.2rem rgba(108, 117, 125, 0.5));
+@include bagde-type(success, #ffffff, #28a745, #1e7e34, 0 0 0 0.2rem rgba(40, 167, 69, 0.5));
+@include bagde-type(info, #ffffff, #17a2b8, #117a8b, 0 0 0 0.2rem rgba(23, 162, 184, 0.5));
+@include bagde-type(warning, #212529, #ffc107, #d39e00, 0 0 0 0.2rem rgba(255, 193, 7, 0.5));
+@include bagde-type(danger, #ffffff, #dc3545, #bd2130, 0 0 0 0.2rem rgba(220, 53, 69, 0.5));
+@include bagde-type(light, #212529, #f8f9fa, #dae0e5, 0 0 0 0.2rem rgba(248, 249, 250, 0.5));
+@include bagde-type(dark, #ffffff, #343a40, #1d2124, 0 0 0 0.2rem rgba(52, 58, 64, 0.5));
